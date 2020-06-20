@@ -1,1 +1,29 @@
+.slider{
 
+  /*background-image: url(https://www.solidbackgrounds.com/images/1920x1080/1920x1080-azure-solid-color-background.jpg);*/
+  background-color: rgb(245, 245, 245);
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+}
+.propiedad{
+  color: rgb(104, 104, 104);
+  padding: 0%;
+  height: 55vh;
+}
+.imagen{
+  background-position: center;
+  background-repeat: repeat;
+  background-size:cover;
+  height: 60%;
+}
+
+
+.titulo{
+  font-size: larger;
+}
+
+
+.propiedad:hover{
+  color: rgb(0, 0, 0);
+}

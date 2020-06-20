@@ -26,8 +26,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 // componentes antes de logearse
 import { InicioComponent } from './componentes/inicio/inicio.component';
-import { InicioSesionComponent } from './componentes/inicio/inicio-sesion/inicio-sesion.component';
-import { RegistroComponent} from './componentes/inicio/registro/registro.component';
 import { HomeModule} from './componentes/Home/home/home.module';
 import { ScrollingModule } from '@angular/cdk/scrolling';
 // componentes del sidenav
@@ -36,20 +34,12 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { LoginService } from './servicios/login.service';
 import { RegistroService } from './servicios/registro.service';
 import { TokenService } from './servicios/token.service';
-import { ClienteComponent } from './componentes/menu/cliente/cliente.component';
-import { AdministradorComponent } from './componentes/menu/administrador/administrador.component';
-import { Implement1Component } from './componentes/web/entregable1/implement1/implement1.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    InicioComponent,
-    InicioSesionComponent,
-    RegistroComponent,
-    ClienteComponent,
-    AdministradorComponent,
-    Implement1Component
+    InicioComponent
   ],
   imports: [
     BrowserModule,
