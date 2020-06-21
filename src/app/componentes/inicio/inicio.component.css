@@ -7,23 +7,30 @@
   background-position: center;
 }
 .propiedad{
-  color: rgb(104, 104, 104);
+  color: rgb(0, 0, 0);
   padding: 0%;
+  padding-right: 4px;
   height: 55vh;
+  margin-top: 3vh;
 }
 .imagen{
   background-position: center;
   background-repeat: repeat;
   background-size:cover;
   height: 60%;
+  width: 100%;
 }
-
+.descripcion{
+  padding-right: 4px;
+}
 
 .titulo{
   font-size: larger;
+  font-weight: bold;
 }
 
 
-.propiedad:hover{
-  color: rgb(0, 0, 0);
+.imagen:hover {
+  border: 4px solid rgb(255, 255, 255);
+
 }
